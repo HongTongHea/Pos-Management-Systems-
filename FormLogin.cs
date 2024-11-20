@@ -16,5 +16,24 @@ namespace POS_MANAGEMENT_SYSTEM
         {
             InitializeComponent();
         }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnShowHide_Click(object sender, EventArgs e)
+        {
+            if (txtPassword.UseSystemPasswordChar == false)
+            {
+                txtPassword.UseSystemPasswordChar = true;
+                btnShowHide.Image = Properties.Resources.locked;
+            }
+            else
+            {
+                txtPassword.UseSystemPasswordChar = false;
+                btnShowHide.Image = Properties.Resources.unlocked;
+            }
+        }
     }
 }

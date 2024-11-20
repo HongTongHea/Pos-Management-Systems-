@@ -14,9 +14,9 @@ D:\BBU-C103\3-Client-Server Application Development\Pos-Management-Systems-\POS 
 D:\BBU-C103\3-Client-Server Application Development\Pos-Management-Systems-\POS MANAGEMENT SYSTEM\POS MANAGEMENT SYSTEM\bin\Debug\POS MANAGEMENT SYSTEM.pdb
 D:\BBU-C103\3-Client-Server Application Development\Pos-Management-Systems-\POS MANAGEMENT SYSTEM\POS MANAGEMENT SYSTEM\obj\Debug\POS MANAGEMENT SYSTEM.csproj.AssemblyReference.cache
 D:\BBU-C103\3-Client-Server Application Development\Pos-Management-Systems-\POS MANAGEMENT SYSTEM\POS MANAGEMENT SYSTEM\obj\Debug\POS_MANAGEMENT_SYSTEM.Form1.resources
-D:\BBU-C103\3-Client-Server Application Development\Pos-Management-Systems-\POS MANAGEMENT SYSTEM\POS MANAGEMENT SYSTEM\obj\Debug\POS_MANAGEMENT_SYSTEM.FormLogin.resources
 D:\BBU-C103\3-Client-Server Application Development\Pos-Management-Systems-\POS MANAGEMENT SYSTEM\POS MANAGEMENT SYSTEM\obj\Debug\POS_MANAGEMENT_SYSTEM.Properties.Resources.resources
 D:\BBU-C103\3-Client-Server Application Development\Pos-Management-Systems-\POS MANAGEMENT SYSTEM\POS MANAGEMENT SYSTEM\obj\Debug\POS MANAGEMENT SYSTEM.csproj.GenerateResource.cache
 D:\BBU-C103\3-Client-Server Application Development\Pos-Management-Systems-\POS MANAGEMENT SYSTEM\POS MANAGEMENT SYSTEM\obj\Debug\POS MANAGEMENT SYSTEM.csproj.CoreCompileInputs.cache
 D:\BBU-C103\3-Client-Server Application Development\Pos-Management-Systems-\POS MANAGEMENT SYSTEM\POS MANAGEMENT SYSTEM\obj\Debug\POS MANAGEMENT SYSTEM.exe
 D:\BBU-C103\3-Client-Server Application Development\Pos-Management-Systems-\POS MANAGEMENT SYSTEM\POS MANAGEMENT SYSTEM\obj\Debug\POS MANAGEMENT SYSTEM.pdb
+D:\BBU-C103\3-Client-Server Application Development\Pos-Management-Systems-\POS MANAGEMENT SYSTEM\POS MANAGEMENT SYSTEM\obj\Debug\POS_MANAGEMENT_SYSTEM.FormLogin.resources

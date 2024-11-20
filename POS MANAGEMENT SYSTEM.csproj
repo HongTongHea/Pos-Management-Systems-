@@ -104,5 +104,26 @@
   <ItemGroup>
     <None Include="Resources\Blue_and_White_Simple_Icon_Engineering_Logo__1_-removebg-preview.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\locked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unlocked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
