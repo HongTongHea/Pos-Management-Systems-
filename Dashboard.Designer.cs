@@ -34,36 +34,35 @@
             this.btnClose = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel21 = new System.Windows.Forms.Panel();
-            this.label11 = new System.Windows.Forms.Label();
+            this.lblSetting = new System.Windows.Forms.Label();
             this.panel22 = new System.Windows.Forms.Panel();
             this.panel19 = new System.Windows.Forms.Panel();
-            this.label10 = new System.Windows.Forms.Label();
+            this.lblVender = new System.Windows.Forms.Label();
             this.panel20 = new System.Windows.Forms.Panel();
             this.panel17 = new System.Windows.Forms.Panel();
-            this.label9 = new System.Windows.Forms.Label();
+            this.lblUser = new System.Windows.Forms.Label();
             this.panel18 = new System.Windows.Forms.Panel();
             this.panel15 = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
+            this.lblPurchase = new System.Windows.Forms.Label();
             this.panel16 = new System.Windows.Forms.Panel();
             this.panel13 = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
+            this.lblSale = new System.Windows.Forms.Label();
             this.panel14 = new System.Windows.Forms.Panel();
             this.panel11 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
+            this.lblItem = new System.Windows.Forms.Label();
             this.panel12 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
+            this.lblEmployee = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblCustomer = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblDashboard = new System.Windows.Forms.Label();
             this.btnLogout = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel23 = new System.Windows.Forms.Panel();
+            this.pnMain = new System.Windows.Forms.Panel();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
@@ -87,8 +86,7 @@
             this.panel9.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.panel23.SuspendLayout();
+            this.pnMain.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
@@ -161,7 +159,7 @@
             this.panel2.Controls.Add(this.panel10);
             this.panel2.Controls.Add(this.panel6);
             this.panel2.Controls.Add(this.panel5);
-            this.panel2.Controls.Add(this.label1);
+            this.panel2.Controls.Add(this.lblDashboard);
             this.panel2.Controls.Add(this.btnLogout);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.panel3);
@@ -174,7 +172,7 @@
             // panel21
             // 
             this.panel21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.panel21.Controls.Add(this.label11);
+            this.panel21.Controls.Add(this.lblSetting);
             this.panel21.Controls.Add(this.pictureBox11);
             this.panel21.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel21.Location = new System.Drawing.Point(0, 422);
@@ -184,20 +182,20 @@
             this.panel21.Size = new System.Drawing.Size(235, 42);
             this.panel21.TabIndex = 31;
             // 
-            // label11
+            // lblSetting
             // 
-            this.label11.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.lblSetting.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.label11.Font = new System.Drawing.Font("Garet Heavy", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(67, 9);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(85, 26);
-            this.label11.TabIndex = 16;
-            this.label11.Text = "Setting";
-            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblSetting.AutoSize = true;
+            this.lblSetting.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.lblSetting.Font = new System.Drawing.Font("Garet Heavy", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSetting.ForeColor = System.Drawing.Color.White;
+            this.lblSetting.Location = new System.Drawing.Point(67, 9);
+            this.lblSetting.Name = "lblSetting";
+            this.lblSetting.Size = new System.Drawing.Size(85, 26);
+            this.lblSetting.TabIndex = 16;
+            this.lblSetting.Text = "Setting";
+            this.lblSetting.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel22
             // 
@@ -210,7 +208,7 @@
             // panel19
             // 
             this.panel19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.panel19.Controls.Add(this.label10);
+            this.panel19.Controls.Add(this.lblVender);
             this.panel19.Controls.Add(this.pictureBox10);
             this.panel19.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel19.Location = new System.Drawing.Point(0, 370);
@@ -220,20 +218,20 @@
             this.panel19.Size = new System.Drawing.Size(235, 42);
             this.panel19.TabIndex = 29;
             // 
-            // label10
+            // lblVender
             // 
-            this.label10.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.lblVender.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.label10.Font = new System.Drawing.Font("Garet Heavy", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(67, 9);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(83, 26);
-            this.label10.TabIndex = 16;
-            this.label10.Text = "Vender";
-            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblVender.AutoSize = true;
+            this.lblVender.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.lblVender.Font = new System.Drawing.Font("Garet Heavy", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblVender.ForeColor = System.Drawing.Color.White;
+            this.lblVender.Location = new System.Drawing.Point(67, 9);
+            this.lblVender.Name = "lblVender";
+            this.lblVender.Size = new System.Drawing.Size(83, 26);
+            this.lblVender.TabIndex = 16;
+            this.lblVender.Text = "Vender";
+            this.lblVender.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel20
             // 
@@ -246,7 +244,7 @@
             // panel17
             // 
             this.panel17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.panel17.Controls.Add(this.label9);
+            this.panel17.Controls.Add(this.lblUser);
             this.panel17.Controls.Add(this.pictureBox9);
             this.panel17.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel17.Location = new System.Drawing.Point(0, 318);
@@ -256,20 +254,20 @@
             this.panel17.Size = new System.Drawing.Size(235, 42);
             this.panel17.TabIndex = 27;
             // 
-            // label9
+            // lblUser
             // 
-            this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.lblUser.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.label9.Font = new System.Drawing.Font("Garet Heavy", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(67, 9);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(57, 26);
-            this.label9.TabIndex = 16;
-            this.label9.Text = "User";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblUser.AutoSize = true;
+            this.lblUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.lblUser.Font = new System.Drawing.Font("Garet Heavy", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUser.ForeColor = System.Drawing.Color.White;
+            this.lblUser.Location = new System.Drawing.Point(67, 9);
+            this.lblUser.Name = "lblUser";
+            this.lblUser.Size = new System.Drawing.Size(57, 26);
+            this.lblUser.TabIndex = 16;
+            this.lblUser.Text = "User";
+            this.lblUser.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel18
             // 
@@ -282,7 +280,7 @@
             // panel15
             // 
             this.panel15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.panel15.Controls.Add(this.label8);
+            this.panel15.Controls.Add(this.lblPurchase);
             this.panel15.Controls.Add(this.pictureBox8);
             this.panel15.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel15.Location = new System.Drawing.Point(0, 266);
@@ -292,20 +290,20 @@
             this.panel15.Size = new System.Drawing.Size(235, 42);
             this.panel15.TabIndex = 25;
             // 
-            // label8
+            // lblPurchase
             // 
-            this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.lblPurchase.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.label8.Font = new System.Drawing.Font("Garet Heavy", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(67, 9);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(104, 26);
-            this.label8.TabIndex = 16;
-            this.label8.Text = "Purchase";
-            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblPurchase.AutoSize = true;
+            this.lblPurchase.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.lblPurchase.Font = new System.Drawing.Font("Garet Heavy", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPurchase.ForeColor = System.Drawing.Color.White;
+            this.lblPurchase.Location = new System.Drawing.Point(67, 9);
+            this.lblPurchase.Name = "lblPurchase";
+            this.lblPurchase.Size = new System.Drawing.Size(104, 26);
+            this.lblPurchase.TabIndex = 16;
+            this.lblPurchase.Text = "Purchase";
+            this.lblPurchase.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel16
             // 
@@ -318,7 +316,7 @@
             // panel13
             // 
             this.panel13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.panel13.Controls.Add(this.label7);
+            this.panel13.Controls.Add(this.lblSale);
             this.panel13.Controls.Add(this.pictureBox7);
             this.panel13.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel13.Location = new System.Drawing.Point(0, 214);
@@ -328,20 +326,20 @@
             this.panel13.Size = new System.Drawing.Size(235, 42);
             this.panel13.TabIndex = 23;
             // 
-            // label7
+            // lblSale
             // 
-            this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.lblSale.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.label7.Font = new System.Drawing.Font("Garet Heavy", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(67, 9);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(54, 26);
-            this.label7.TabIndex = 16;
-            this.label7.Text = "Sale";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblSale.AutoSize = true;
+            this.lblSale.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.lblSale.Font = new System.Drawing.Font("Garet Heavy", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSale.ForeColor = System.Drawing.Color.White;
+            this.lblSale.Location = new System.Drawing.Point(67, 9);
+            this.lblSale.Name = "lblSale";
+            this.lblSale.Size = new System.Drawing.Size(54, 26);
+            this.lblSale.TabIndex = 16;
+            this.lblSale.Text = "Sale";
+            this.lblSale.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel14
             // 
@@ -354,7 +352,7 @@
             // panel11
             // 
             this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.panel11.Controls.Add(this.label6);
+            this.panel11.Controls.Add(this.lblItem);
             this.panel11.Controls.Add(this.pictureBox6);
             this.panel11.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel11.Location = new System.Drawing.Point(0, 162);
@@ -364,20 +362,20 @@
             this.panel11.Size = new System.Drawing.Size(235, 42);
             this.panel11.TabIndex = 21;
             // 
-            // label6
+            // lblItem
             // 
-            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.lblItem.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.label6.Font = new System.Drawing.Font("Garet Heavy", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(67, 9);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(71, 26);
-            this.label6.TabIndex = 16;
-            this.label6.Text = "Iteam";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblItem.AutoSize = true;
+            this.lblItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.lblItem.Font = new System.Drawing.Font("Garet Heavy", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblItem.ForeColor = System.Drawing.Color.White;
+            this.lblItem.Location = new System.Drawing.Point(67, 9);
+            this.lblItem.Name = "lblItem";
+            this.lblItem.Size = new System.Drawing.Size(71, 26);
+            this.lblItem.TabIndex = 16;
+            this.lblItem.Text = "Iteam";
+            this.lblItem.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel12
             // 
@@ -390,7 +388,7 @@
             // panel9
             // 
             this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.panel9.Controls.Add(this.label5);
+            this.panel9.Controls.Add(this.lblEmployee);
             this.panel9.Controls.Add(this.pictureBox5);
             this.panel9.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel9.Location = new System.Drawing.Point(0, 110);
@@ -400,20 +398,20 @@
             this.panel9.Size = new System.Drawing.Size(235, 42);
             this.panel9.TabIndex = 19;
             // 
-            // label5
+            // lblEmployee
             // 
-            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.lblEmployee.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.label5.Font = new System.Drawing.Font("Garet Heavy", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(67, 9);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(107, 26);
-            this.label5.TabIndex = 16;
-            this.label5.Text = "Employee";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblEmployee.AutoSize = true;
+            this.lblEmployee.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.lblEmployee.Font = new System.Drawing.Font("Garet Heavy", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEmployee.ForeColor = System.Drawing.Color.White;
+            this.lblEmployee.Location = new System.Drawing.Point(67, 9);
+            this.lblEmployee.Name = "lblEmployee";
+            this.lblEmployee.Size = new System.Drawing.Size(107, 26);
+            this.lblEmployee.TabIndex = 16;
+            this.lblEmployee.Text = "Employee";
+            this.lblEmployee.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel10
             // 
@@ -426,7 +424,7 @@
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.panel6.Controls.Add(this.label2);
+            this.panel6.Controls.Add(this.lblCustomer);
             this.panel6.Controls.Add(this.pictureBox3);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel6.Location = new System.Drawing.Point(0, 58);
@@ -436,20 +434,21 @@
             this.panel6.Size = new System.Drawing.Size(235, 42);
             this.panel6.TabIndex = 15;
             // 
-            // label2
+            // lblCustomer
             // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.lblCustomer.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.label2.Font = new System.Drawing.Font("Garet Heavy", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(67, 9);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(109, 26);
-            this.label2.TabIndex = 16;
-            this.label2.Text = "Customer";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblCustomer.AutoSize = true;
+            this.lblCustomer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.lblCustomer.Font = new System.Drawing.Font("Garet Heavy", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCustomer.ForeColor = System.Drawing.Color.White;
+            this.lblCustomer.Location = new System.Drawing.Point(67, 9);
+            this.lblCustomer.Name = "lblCustomer";
+            this.lblCustomer.Size = new System.Drawing.Size(109, 26);
+            this.lblCustomer.TabIndex = 16;
+            this.lblCustomer.Text = "Customer";
+            this.lblCustomer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblCustomer.Click += new System.EventHandler(this.lblCustomer_Click);
             // 
             // panel5
             // 
@@ -460,20 +459,21 @@
             this.panel5.Size = new System.Drawing.Size(235, 16);
             this.panel5.TabIndex = 15;
             // 
-            // label1
+            // lblDashboard
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.lblDashboard.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.label1.Font = new System.Drawing.Font("Garet Heavy", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(67, 8);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(132, 29);
-            this.label1.TabIndex = 13;
-            this.label1.Text = "Dashboard";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblDashboard.AutoSize = true;
+            this.lblDashboard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.lblDashboard.Font = new System.Drawing.Font("Garet Heavy", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDashboard.ForeColor = System.Drawing.Color.White;
+            this.lblDashboard.Location = new System.Drawing.Point(67, 8);
+            this.lblDashboard.Name = "lblDashboard";
+            this.lblDashboard.Size = new System.Drawing.Size(132, 29);
+            this.lblDashboard.TabIndex = 13;
+            this.lblDashboard.Text = "Dashboard";
+            this.lblDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblDashboard.Click += new System.EventHandler(this.lblDashboard_Click);
             // 
             // btnLogout
             // 
@@ -525,25 +525,16 @@
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // panel4
+            // pnMain
             // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
-            this.panel4.Controls.Add(this.panel23);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(235, 113);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(974, 626);
-            this.panel4.TabIndex = 2;
-            // 
-            // panel23
-            // 
-            this.panel23.Controls.Add(this.label13);
-            this.panel23.Controls.Add(this.label12);
-            this.panel23.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel23.Location = new System.Drawing.Point(0, 0);
-            this.panel23.Name = "panel23";
-            this.panel23.Size = new System.Drawing.Size(974, 68);
-            this.panel23.TabIndex = 0;
+            this.pnMain.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
+            this.pnMain.Controls.Add(this.label13);
+            this.pnMain.Controls.Add(this.label12);
+            this.pnMain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnMain.Location = new System.Drawing.Point(235, 113);
+            this.pnMain.Name = "pnMain";
+            this.pnMain.Size = new System.Drawing.Size(974, 626);
+            this.pnMain.TabIndex = 2;
             // 
             // label13
             // 
@@ -551,10 +542,10 @@
             this.label13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(15, 38);
+            this.label13.Location = new System.Drawing.Point(17, 39);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(176, 20);
-            this.label13.TabIndex = 15;
+            this.label13.TabIndex = 17;
             this.label13.Text = "! Hey Admin Welcome";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -564,10 +555,10 @@
             this.label12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.label12.Font = new System.Drawing.Font("Garet Heavy", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(11, 9);
+            this.label12.Location = new System.Drawing.Point(13, 9);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(132, 29);
-            this.label12.TabIndex = 14;
+            this.label12.TabIndex = 16;
             this.label12.Text = "Dashboard";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -704,7 +695,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1209, 739);
-            this.Controls.Add(this.panel4);
+            this.Controls.Add(this.pnMain);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -733,9 +724,8 @@
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             this.panel3.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
-            this.panel23.ResumeLayout(false);
-            this.panel23.PerformLayout();
+            this.pnMain.ResumeLayout(false);
+            this.pnMain.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
@@ -759,45 +749,44 @@
         private System.Windows.Forms.Button btnLogout;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblDashboard;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label Time;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel pnMain;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblCustomer;
         private System.Windows.Forms.Panel panel19;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label lblVender;
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.Panel panel20;
         private System.Windows.Forms.Panel panel17;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label lblUser;
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.Panel panel18;
         private System.Windows.Forms.Panel panel15;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label lblPurchase;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.Panel panel16;
         private System.Windows.Forms.Panel panel13;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label lblSale;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.Panel panel14;
         private System.Windows.Forms.Panel panel11;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label lblItem;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.Panel panel12;
         private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lblEmployee;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Panel panel21;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label lblSetting;
         private System.Windows.Forms.PictureBox pictureBox11;
         private System.Windows.Forms.Panel panel22;
-        private System.Windows.Forms.Panel panel23;
-        private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label12;
     }
 }

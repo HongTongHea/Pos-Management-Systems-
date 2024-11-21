@@ -52,11 +52,38 @@
     <Compile Include="Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="Data\Model\Customer.cs" />
+    <Compile Include="Data\Model\Employee.cs" />
+    <Compile Include="Data\Model\Item.cs" />
+    <Compile Include="Data\Model\Sale.cs" />
+    <Compile Include="Data\Model\SaleDetail.cs" />
+    <Compile Include="Data\Model\Users.cs" />
+    <Compile Include="Data\Model\UserPermission.cs" />
+    <Compile Include="Data\PosContext.cs" />
+    <Compile Include="Data\Service\CustomerServices.cs" />
+    <Compile Include="Data\Service\EmployeeService.cs" />
+    <Compile Include="Data\Service\ItemService.cs" />
+    <Compile Include="Data\Service\SaleDetailService.cs" />
+    <Compile Include="Data\Service\SaleService.cs" />
+    <Compile Include="Data\Service\UserPermissionService.cs" />
+    <Compile Include="Data\Service\UsersService.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCustomer.Designer.cs">
+      <DependentUpon>FormCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDashboard.Designer.cs">
+      <DependentUpon>FormDashboard.cs</DependentUpon>
     </Compile>
     <Compile Include="FormLogin.cs">
       <SubType>Form</SubType>
@@ -71,6 +98,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCustomer.resx">
+      <DependentUpon>FormCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDashboard.resx">
+      <DependentUpon>FormDashboard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
@@ -166,6 +199,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-purchase-24 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-edit-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-trash-30.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
