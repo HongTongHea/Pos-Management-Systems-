@@ -100,9 +100,9 @@
             this.checkBox1.ForeColor = System.Drawing.Color.White;
             this.checkBox1.Location = new System.Drawing.Point(69, 392);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(110, 30);
+            this.checkBox1.Size = new System.Drawing.Size(170, 30);
             this.checkBox1.TabIndex = 6;
-            this.checkBox1.Text = "Readme";
+            this.checkBox1.Text = "Remember Me";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // label3

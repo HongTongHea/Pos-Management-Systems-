@@ -28,5 +28,14 @@ namespace POS_MANAGEMENT_SYSTEM
             formLogin.Show();
             this.Hide();
         }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            Time.Text = DateTime.Now.ToLongTimeString();
+            timer1.Start();
+        }
+
+
+     
     }
 }
