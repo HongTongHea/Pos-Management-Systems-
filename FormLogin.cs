@@ -35,5 +35,12 @@ namespace POS_MANAGEMENT_SYSTEM
                 btnShowHide.Image = Properties.Resources.unlocked;
             }
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            Dashboard dashboard = new Dashboard();
+            dashboard.Show();
+            this.Hide();        
+        }
     }
 }
