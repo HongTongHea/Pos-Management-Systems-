@@ -23,3 +23,4 @@ D:\BBU-C103\3-Client-Server Application Development\Pos-Management-Systems-\POS 
 D:\BBU-C103\3-Client-Server Application Development\Pos-Management-Systems-\POS MANAGEMENT SYSTEM\POS MANAGEMENT SYSTEM\obj\Debug\POS_MANAGEMENT_SYSTEM.Dashboard.resources
 D:\BBU-C103\3-Client-Server Application Development\Pos-Management-Systems-\POS MANAGEMENT SYSTEM\POS MANAGEMENT SYSTEM\obj\Debug\POS_MANAGEMENT_SYSTEM.FormCustomer.resources
 D:\BBU-C103\3-Client-Server Application Development\Pos-Management-Systems-\POS MANAGEMENT SYSTEM\POS MANAGEMENT SYSTEM\obj\Debug\POS_MANAGEMENT_SYSTEM.FormDashboard.resources
+D:\BBU-C103\3-Client-Server Application Development\Pos-Management-Systems-\POS MANAGEMENT SYSTEM\POS MANAGEMENT SYSTEM\obj\Debug\POS_MANAGEMENT_SYSTEM.FormCustomerAddEdit.resources

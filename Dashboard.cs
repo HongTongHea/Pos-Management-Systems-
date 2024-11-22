@@ -1,4 +1,5 @@
-﻿using System;
+﻿using POS_MANAGEMENT_SYSTEM.Data.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,18 +15,14 @@ namespace POS_MANAGEMENT_SYSTEM
     {
         FormCustomer formcustomer;
 
-        FormDashboard formdashboard;
-
+        FormDashboard FormDashboard;
 
         public Dashboard()
         {
             InitializeComponent();
+      
         }
-
-        private void btnClose_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
+       
 
         private void btnLogout_Click(object sender, EventArgs e)
         {
@@ -40,42 +37,45 @@ namespace POS_MANAGEMENT_SYSTEM
             timer1.Start();
         }
 
-        private void lblDashboard_Click(object sender, EventArgs e)
-        {
-            if (formdashboard == null)
-            {
-                formdashboard = new FormDashboard();
-                formdashboard.TopLevel = false;
-                formdashboard.FormBorderStyle = FormBorderStyle.None;
-                formdashboard.Dock = DockStyle.Fill;
-
-                pnMain.Controls.Add(formdashboard);
-                formdashboard.Show();
-                formdashboard.BringToFront();
-            }
-            else
-            {
-                formdashboard.BringToFront();
-            }
-        }
+    
 
         private void lblCustomer_Click(object sender, EventArgs e)
         {
-            if (formcustomer == null)
-            {
-                formcustomer = new FormCustomer();
-                formcustomer.TopLevel = false;
-                formcustomer.FormBorderStyle = FormBorderStyle.None;
-                formcustomer.Dock = DockStyle.Fill;
 
-                pnMain.Controls.Add(formcustomer);
-                formcustomer.Show();
-                formcustomer.BringToFront();
+            if (formcustomer == null) 
+            { 
+                formcustomer = new FormCustomer();
+                formcustomer.TopLevel = false; 
+                formcustomer.FormBorderStyle = FormBorderStyle.None; 
+                formcustomer.Dock = DockStyle.Fill; 
+                pnMain.Controls.Add(formcustomer); 
+                formcustomer.Show(); 
+                formcustomer.BringToFront(); 
+            } 
+            else
+            {
+                formcustomer.BringToFront(); 
+            }
+
+        }
+
+        private void lblDashboard_Click(object sender, EventArgs e)
+        {
+            if (FormDashboard == null)
+            {
+                FormDashboard = new FormDashboard();
+                FormDashboard.TopLevel = false;
+                FormDashboard.FormBorderStyle = FormBorderStyle.None;
+                FormDashboard.Dock = DockStyle.Fill;
+                pnMain.Controls.Add(FormDashboard);
+                FormDashboard.Show();
+                FormDashboard.BringToFront();
             }
             else
             {
-                formcustomer.BringToFront();
+                FormDashboard.BringToFront();
             }
+
         }
     }
 }

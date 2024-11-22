@@ -1,4 +1,4 @@
-﻿using POS_MANAGEMENT_SYSTEM.Data.Model;
+﻿    using POS_MANAGEMENT_SYSTEM.Data.Model;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
