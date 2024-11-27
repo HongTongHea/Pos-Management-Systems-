@@ -28,7 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtUsername = new System.Windows.Forms.TextBox();
+            this.components = new System.ComponentModel.Container();
+            this.txtUserName = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtPassword = new System.Windows.Forms.TextBox();
@@ -39,16 +40,18 @@
             this.button1 = new System.Windows.Forms.Button();
             this.btnShowHide = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.epUsername = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.epUsername)).BeginInit();
             this.SuspendLayout();
             // 
-            // txtUsername
+            // txtUserName
             // 
-            this.txtUsername.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsername.Location = new System.Drawing.Point(69, 198);
-            this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(320, 34);
-            this.txtUsername.TabIndex = 0;
+            this.txtUserName.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUserName.Location = new System.Drawing.Point(69, 198);
+            this.txtUserName.Name = "txtUserName";
+            this.txtUserName.Size = new System.Drawing.Size(320, 34);
+            this.txtUserName.TabIndex = 0;
             // 
             // label1
             // 
@@ -171,6 +174,10 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
+            // epUsername
+            // 
+            this.epUsername.ContainerControl = this;
+            // 
             // FormLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
@@ -186,7 +193,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtUsername);
+            this.Controls.Add(this.txtUserName);
             this.Controls.Add(this.pictureBox1);
             this.Font = new System.Drawing.Font("Trebuchet MS", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -195,6 +202,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = " ";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.epUsername)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -202,7 +210,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtUsername;
+        private System.Windows.Forms.TextBox txtUserName;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
@@ -213,5 +221,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btnShowHide;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ErrorProvider epUsername;
     }
 }

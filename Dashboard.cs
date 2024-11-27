@@ -14,6 +14,8 @@ namespace POS_MANAGEMENT_SYSTEM
     public partial class Dashboard : Form
     {
         FormCustomer formcustomer;
+        FormSale formSale;
+        FormEmployee formemployee;
 
         FormDashboard FormDashboard;
 
@@ -76,6 +78,44 @@ namespace POS_MANAGEMENT_SYSTEM
                 FormDashboard.BringToFront();
             }
 
+        }
+
+        private void lblEmployee_Click(object sender, EventArgs e)
+        {
+            if (formemployee == null)
+            {
+                formemployee = new FormEmployee();
+                formemployee.TopLevel = false;
+                formemployee.FormBorderStyle = FormBorderStyle.None;
+                formemployee.Dock = DockStyle.Fill;
+                pnMain.Controls.Add(formemployee);
+                formemployee.Show();
+                formemployee.BringToFront();
+            }
+            else
+            {
+                formemployee.BringToFront();
+            }
+
+        }
+
+        private void lblSale_Click(object sender, EventArgs e)
+        {
+           
+            if (formSale == null)
+            {
+                formSale = new FormSale();
+                formSale.TopLevel = false;
+                formSale.FormBorderStyle = FormBorderStyle.None;
+                formSale.Dock = DockStyle.Fill;
+                pnMain.Controls.Add(formSale);
+                formSale.Show();
+                formSale.BringToFront();
+            }
+            else
+            {
+                formSale.BringToFront();
+            }
         }
     }
 }

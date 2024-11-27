@@ -1,4 +1,6 @@
-﻿using System;
+﻿using POS_MANAGEMENT_SYSTEM.Data.Model;
+using POS_MANAGEMENT_SYSTEM.Data.Service;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -38,9 +40,37 @@ namespace POS_MANAGEMENT_SYSTEM
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            Dashboard dashboard = new Dashboard();
-            dashboard.Show();
-            this.Hide();        
+            if (DoValidation())
+            {
+                Users user =
+                UsersService.Login(txtUserName.Text.Trim(), txtPassword.Text.Trim());
+                if (user == null)
+                {
+                    MessageBox.Show("Invalid Username and Password, Please enteragain.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    return;
+                }
+                Dashboard dashboard = new Dashboard();
+                //formMain.UserLogin = user;
+                this.Hide();
+                dashboard.ShowDialog();
+                this.Close();
+            }
+            bool DoValidation()
+            {
+                bool result = true;
+                if (txtUserName.Text.Trim() == "")
+                {
+                    epUsername.SetError(txtUserName, "Please enter username.");
+                    result = false;
+                }
+            /*    else if(txtPassword.Text.Trim() == "");
+                {
+                    epUsername.SetError(txtPassword, "Password cannot blank, Please enterpassword");
+
+                    result = false;
+                }*/
+                return result;
+            }
         }
     }
 }

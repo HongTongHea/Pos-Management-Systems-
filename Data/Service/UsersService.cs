@@ -36,6 +36,7 @@ namespace POS_MANAGEMENT_SYSTEM.Data.Service
                 user.Password = reader["Password"].ToString();
                 user.IsAdmin = Convert.ToBoolean(reader["IsAdmin"]);
             }
+            reader.Close();
             return user;
         }
         public static void Add(Users user)
@@ -100,6 +101,7 @@ namespace POS_MANAGEMENT_SYSTEM.Data.Service
                 user.Password = reader["Password"].ToString();
                 user.IsAdmin = Convert.ToBoolean(reader["IsAdmin"]);
             }
+            reader.Close();
             return user;
         }
     }

@@ -41,7 +41,6 @@ namespace POS_MANAGEMENT_SYSTEM.Data.Service
 
 
             }
-
             reader.Close();
 
             return customer;

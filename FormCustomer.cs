@@ -30,7 +30,7 @@ namespace POS_MANAGEMENT_SYSTEM
         }
         private void loadData()
         {
-            dtCustomr = CustomerServices.GetAll();
+            dtCustomr = CustomerServices    .GetAll();
 
             DgCustomer.DataSource = dtCustomr;
 
@@ -116,7 +116,7 @@ namespace POS_MANAGEMENT_SYSTEM
 
         private void txtSearch_TextChanged(object sender, EventArgs e)
         {
-            (DgCustomer.DataSource as DataTable).DefaultView.RowFilter = string.Format
+           (DgCustomer.DataSource as DataTable).DefaultView.RowFilter = string.Format
            ("CustomerName LIKE '%{0}%' " +
            "OR CompanyName LIKE '%{0}%' " +
            "OR Phone LIKE '%{0}%' " +
